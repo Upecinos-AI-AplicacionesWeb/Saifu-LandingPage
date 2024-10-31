@@ -828,7 +828,7 @@ body, html {
   font-weight: 700;
   line-height: 74px;
   word-wrap: break-word;
-  margin-bottom: 1 5px;
+  margin-bottom: 15px;
 }
 
 .search-box-faq {
@@ -1863,4 +1863,203 @@ word-wrap: break-word;
   font-size: 16px;
   font-weight: 400;
   word-wrap: break-word
+}
+
+/* About the Team Section Styles */
+.about-team-section {
+    background-color: #f7fcef; /* pastel verde */
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 4px solid #ffd966; /* pastel amarillo */
+}
+
+.about-team-container h2 {
+    color: #4caf50; /* verde suave */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-video video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-description p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+    background-color: #f0f8e7; /* verde pastel */
+    padding: 40px;
+    text-align: center;
+    border-top: 2px solid #ffe97a; /* amarillo pastel */
+    border-bottom: 2px solid #ffe97a;
+}
+
+.cta-content h2 {
+    color: #4a7a41; /* tono verde oscuro */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta-content p {
+    color: #595959; /* gris suave */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffe97a; /* amarillo pastel */
+    color: #4a7a41;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d4c35b; /* amarillo más oscuro */
+}
+.cta-section {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.cta-section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.cta-section p {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.cta-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+.contact-faq {
+    background-color: #f9f9f9; /* Fondo suave */
+    padding: 40px 20px; /* Espaciado alrededor */
+    text-align: center; /* Centrar texto */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 40px 0; /* Espaciado superior e inferior */
+}
+
+.contact-faq-content {
+    max-width: 600px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.contact-faq h2 {
+    font-size: 2rem; /* Tamaño de fuente grande */
+    color: #333; /* Color del texto */
+}
+
+.contact-faq p {
+    margin: 10px 0 20px; /* Margen superior e inferior */
+    color: #666; /* Color del texto secundario */
+}
+
+.button-faq {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 15px 30px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mantener en línea */
+    font-size: 1rem; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.button-faq:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+.about-product {
+    background-color: #e8f5e9; /* verde pastel */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-product h1 {
+    color: #388e3c; /* verde más oscuro */
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el título */
+}
+
+.about-content {
+    display: flex; /* Utiliza flexbox para alinear el video y la descripción */
+    justify-content: center; /* Centra el contenido */
+    align-items: flex-start; /* Alinea la parte superior de ambos elementos */
+    margin-top: 20px; /* Espacio entre el título y el contenido */
+}
+
+.video-container {
+    flex: 1; /* Hace que el video ocupe una parte del espacio */
+    max-width: 560px; /* Limita el ancho máximo del video */
+}
+
+.description {
+    flex: 1; /* Hace que la descripción ocupe una parte del espacio */
+    padding-left: 20px; /* Espacio entre el video y la descripción */
+}
+
+.about-product p {
+    color: #333; /* texto en negro para contraste */
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.about-product .highlight {
+    background-color: #fff9c4; /* amarillo pastel */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; /* Para que el padding se ajuste al texto */
+    margin: 10px 0;
+    font-weight: bold; /* Resaltar el texto */
+}
+
+.about-product .highlight:hover {
+    background-color: #fff59d; /* Amarillo un poco más oscuro al pasar el ratón */
+    transition: background-color 0.3s;
 }

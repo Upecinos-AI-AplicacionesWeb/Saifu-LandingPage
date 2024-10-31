@@ -29,26 +29,31 @@
     </div>
   </nav>
 
-<div class="contact-section" style="background-image: url('assets/images/fondito.png');">
-  <div class="contact-content">
-    <div class="contact-form">
-      <h1>Contacto</h1>
-      <form action="submit_form.php" method="post">
-        <div class="form-group">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
-        </div>
-        <div class="form-group">
-          <label for="message">¿Cómo podemos ayudarte?</label>
-          <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">Enviar</button>
-      </form>
-    </div>
+  <div class="contact-section" style="background-image: url('assets/images/fondito.png');">
+    <div class="contact-content">
+      <div class="cta-section">
+        <h2>¡Estamos aquí para ayudarte!</h2>
+        <p>No dudes en ponerte en contacto con nosotros. Queremos escuchar tus dudas, comentarios o cualquier pregunta que tengas. ¡Tu opinión es importante!</p>
+        <button onclick="document.querySelector('.contact-form').scrollIntoView({ behavior: 'smooth' });" class="cta-button">¡Contáctanos ahora!</button>
+      </div>
+      <div class="contact-form">
+        <h1>Contacto</h1>
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+          </div>
+          <div class="form-group">
+            <label for="message">¿Cómo podemos ayudarte?</label>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+      </div>
 
     <div class="contact-image">
       <img src="https://assets-global.website-files.com/6461f2c434f48e71dcbe84bb/649bdb639bc7c6dc475f40cf_Stage_Image2-p-500.png" alt="Imagen de contacto">    </div>
