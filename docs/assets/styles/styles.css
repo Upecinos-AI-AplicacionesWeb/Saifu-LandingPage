@@ -2043,23 +2043,57 @@ word-wrap: break-word;
     padding-left: 20px; /* Espacio entre el video y la descripción */
 }
 
-.about-product p {
-    color: #333; /* texto en negro para contraste */
-    font-size: 1.1em;
-    line-height: 1.5;
-    margin: 10px 0;
+/* Estilo para la sección del producto */
+.about-product {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.about-product .highlight {
-    background-color: #fff9c4; /* amarillo pastel */
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block; /* Para que el padding se ajuste al texto */
-    margin: 10px 0;
-    font-weight: bold; /* Resaltar el texto */
+.about-product h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
 }
 
-.about-product .highlight:hover {
-    background-color: #fff59d; /* Amarillo un poco más oscuro al pasar el ratón */
-    transition: background-color 0.3s;
+/* Estilos para el contenedor de contenido */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que el contenido esté centrado en pantallas pequeñas */
 }
+
+/* Estilos para el contenedor del video */
+.about-the-product-video {
+    width: 100%;
+    max-width: 600px; /* El video no será más grande que 600px */
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Estilos para el iframe (video de YouTube) */
+.about-the-product-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; /* Bordes redondeados para el video */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+}
+
+/* Estilo responsivo: Ajustar tamaño del video en pantallas pequeñas */
+@media (max-width: 768px) {
+    .about-product {
+        padding: 30px 15px;
+    }
+    .about-product h1 {
+        font-size: 2rem;
+    }
+    .about-the-product-video {
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+
+
